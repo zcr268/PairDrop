@@ -1,5 +1,5 @@
 {
-  "routes": [
-    { "src": "/(.*)", "dest": "http://localhost:3000/$1" }
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
   ]
 }
